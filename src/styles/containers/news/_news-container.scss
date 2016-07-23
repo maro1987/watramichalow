@@ -1,0 +1,19 @@
+.news-header {
+  @extend %common-tile-header;
+  background-color: $tilecolorblue;
+}
+
+.news-header-title {
+  @extend %common-tile-header-title;
+}
+
+.news-content {
+  background-color: $light;
+}
+
+.news-page-plugin {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

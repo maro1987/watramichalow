@@ -1,0 +1,34 @@
+.header-container {
+  @include clearfix;
+  @include container;
+}
+
+.header-container-banner {
+  display: inline;
+  float: left;
+  padding-bottom: 2px;
+  padding-top: 5px
+}
+
+%header-container-banner-logo {
+  float: left;
+  align-items: center;
+  background-repeat: no-repeat;
+  position: relative;
+  vertical-align: middle;
+}
+
+.header-container-banner-logo-sl {
+  @extend %header-container-banner-logo;
+  @include background-image(url($logoslimage));
+  height: 90px;
+  width: 55px;
+  margin-right: 10px;
+ }
+
+.header-container-banner-logo-watra {
+  @extend %header-container-banner-logo;
+  @include background-image(url($logowatraimage));
+  width: 290px;
+  height: 90px;
+}

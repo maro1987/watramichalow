@@ -1,0 +1,24 @@
+.home-slideshow-component {
+  border-top: $slidecontainercordercolor 4px solid;
+  display: block;
+  height: 430px;
+  position: relative;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-out;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 700ms ease-in;
+}

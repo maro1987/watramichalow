@@ -1,0 +1,6 @@
+.programme-view {
+  @include clearfix;
+  @include container;
+  border-top: $dark 5px solid;
+  position: relative;
+}

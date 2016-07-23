@@ -1,0 +1,12 @@
+.contact-header {
+  @extend %common-tile-header;
+  background-color: $tilecolorgreen;
+}
+
+.contact-header-title {
+  @extend %common-tile-header-title;
+}
+
+.contact-content {
+  background-color: $light;
+}

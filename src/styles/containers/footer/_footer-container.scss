@@ -1,0 +1,71 @@
+.footer-container {
+
+}
+
+.footer-container-sponsors-banner {
+  @include clearfix;
+  @include container;
+  @include background-image(url($sponsorsimage));;
+  background-repeat: no-repeat;
+  height: 190px;
+  width: 990px;
+}
+
+.footer-container-top {
+  background-color: white;
+}
+
+.footer-container-bottom {
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+.footer-container-bottom-content {
+  @include clearfix;
+  @include container;
+}
+
+.footer-container-bottom-banner {
+  background-color: black;
+  display: inline;
+  float: left;
+  padding-bottom: 2px;
+  padding-top: 5px
+}
+
+%footer-container-bottom-banner-logo {
+  float: left;
+  align-items: center;
+  background-repeat: no-repeat;
+  position: relative;
+  vertical-align: middle;
+}
+
+.footer-container-bottom-banner-logo-sl {
+  @extend %header-container-banner-logo;
+  @include background-image(url($logoslimage));
+  height: 90px;
+  width: 55px;
+  margin-right: 10px;
+}
+
+.footer-container-bottom-banner-logo-watra {
+  @extend %header-container-banner-logo;
+  @include background-image(url($logowatraimage));
+  width: 290px;
+  height: 90px;
+}
+
+.footer-container-bottom-copyright {
+  position: absolute;
+  color: $light;
+  bottom: 10px;
+  font-size: 0.8rem;
+  text-align: center;
+  
+  a {
+    color: $light;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

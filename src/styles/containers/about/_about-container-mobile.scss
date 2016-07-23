@@ -1,0 +1,28 @@
+@media (max-width: $mobile-max-width) {
+  .about-image {
+    display: none;
+  }
+
+  .about-content {
+    background-color: $light;
+  }
+
+  .about-content-header {
+    font-family: $fontmpsecond;
+    font-size: 1.5rem;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    color: $navigationhovercolor;
+    line-height: 30px;
+  }
+
+  .about-content-text {
+    max-width: 750px;
+    display: block;
+    padding: 5px 25px 10px 25px;
+    text-align: justify;
+    font-size: 15px;
+    color: #000;
+    font-family: $fontmpsecond;
+  }
+}

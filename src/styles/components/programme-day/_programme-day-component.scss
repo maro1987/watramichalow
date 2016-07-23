@@ -1,0 +1,13 @@
+.programme-day-header {
+  @extend %common-tile-header;
+  background-color: $tilecolorviolet;
+}
+
+.programme-day-header-title {
+  @extend %common-tile-header-title;
+  height: 35px;
+  font-size: 2rem;
+  text-transform: none;
+  padding: 6px;
+  padding-top: 2px;
+}

@@ -1,0 +1,82 @@
+.info-item-component {
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.info-item-header {
+  margin: 10px 0px 0 0;
+  border-bottom: solid #333 2px;
+}
+
+.info-item-header-title {
+  width: 700px;
+  display: block;
+  padding: 8px 0 0 25px;
+  height: 48px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #FFF;
+  font-family: $fontmpsecond;
+  line-height: 34px;
+  vertical-align: middle;
+  text-align: left;
+
+  cursor: pointer;
+  transition: opacity .25s;
+
+  &.index_0 {
+    background-color: $tilecolorviolet;
+  }
+
+  &.index_1 {
+    background-color: $tilecolorpink;
+  }
+
+  &.index_2 {
+    background-color: $tilecoloryellow;
+  }
+
+  &.index_3 {
+    background-color: $tilecolorsea;
+  }
+
+  &.index_4 {
+    background-color: $tilecolorgreen;
+  }
+
+  &.index_5 {
+    background-color: $tilecolorblue;
+  }
+
+  &.index_6 {
+    background-color: $slidecontainercordercolor;
+  }
+
+  &.index_7 {
+    background-color: $tilecolororange;
+  }
+
+  &:hover {
+    opacity: .8
+  }
+}
+
+.info-item-header-content {
+  overflow: hidden;
+  max-width: 700px;
+  padding: 15px 25px 0 25px;
+  position: relative;
+  font-size: 15px;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s ease-in ease-out;
+  transition-property: max-height, opacity, visibility;
+
+  &.active {
+    opacity: 1;
+    max-height: 100%;
+    visibility: visible;
+  }
+}

@@ -1,0 +1,19 @@
+
+.home-content-container {
+  padding-top: 10px;
+  width: 100%;
+  height: 500px;
+  display: block;
+  position: relative;
+}
+
+.home-content-left-column {
+  @include span(8 of 12 0);
+  height: auto;
+  display: block;
+}
+
+.home-content-right-column {
+  @include span(4 of 12 0);
+  height: auto;
+}

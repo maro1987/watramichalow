@@ -1,0 +1,52 @@
+.artists-list-item-component {
+  @include inline-block;
+  width: 320px;
+  height: 403px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: $dark 1px solid;
+
+  &:not(:nth-child(3n)) {
+    width: 340px;
+  }
+}
+
+.artists-list-item-header {
+  margin: 5px 5px 5px 15px;
+  color: $red;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-family: $fontmpsecond;
+  line-height: 40px;
+  border-bottom: #CCC 1px solid;
+}
+
+.artists-list-item-location {
+  padding: 5px 15px;
+  font-family: $fontmpsecond;
+}
+
+.artists-list-item-item-image {
+  width: 320px;
+  height: 138px;
+}
+
+.artists-list-item-description {
+  position: relative;
+  width: 320px;
+  padding: 5px 15px 10px 10px;
+  font-size: 15px;
+  font-family: $fontmpsecond;
+  line-height: 22px;
+}
+
+.artists-list-item-slide-more-button {
+  color: $slidetitlecolor;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}

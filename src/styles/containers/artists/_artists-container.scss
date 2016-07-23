@@ -1,0 +1,11 @@
+.artists-header {
+  @extend %common-tile-header;
+  background-color: $tilecolorpink;
+}
+
+.artists-header-title {
+  @extend %common-tile-header-title;
+}
+.artists-content {
+  background-color: $light;
+}

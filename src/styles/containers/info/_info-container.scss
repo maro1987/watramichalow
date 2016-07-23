@@ -1,0 +1,12 @@
+.info-header {
+  @extend %common-tile-header;
+  background-color: $tilecolorgrey;
+}
+
+.info-header-title {
+  @extend %common-tile-header-title;
+}
+
+.info-content {
+  background-color: $light;
+}

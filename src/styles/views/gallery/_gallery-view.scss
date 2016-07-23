@@ -1,0 +1,5 @@
+.gallery-view {
+  @include clearfix;
+  @include container;
+  position: relative;
+}

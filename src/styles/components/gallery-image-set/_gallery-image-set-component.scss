@@ -1,0 +1,8 @@
+.gallery-image-set-component {
+  @include clearfix;
+  padding-top: 20px;
+}
+
+.gallery-image-set-list {
+  @include reset-list-style;
+}

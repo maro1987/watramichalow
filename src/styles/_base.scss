@@ -1,0 +1,4 @@
+body {
+  @include background(url($bodybackroundimage));
+  font: $mainfont;
+}

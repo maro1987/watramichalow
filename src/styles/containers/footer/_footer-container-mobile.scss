@@ -1,0 +1,15 @@
+@media (max-width: $mobile-max-width) {
+  .footer-container {
+
+  }
+
+  .footer-container-sponsors-banner {
+    height: 100px;
+    transform: scale(0.43, 0.43);
+    margin-left: -290px;
+  }
+
+  .footer-container-bottom {
+    display: none;
+  }
+}

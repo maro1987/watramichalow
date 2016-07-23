@@ -1,0 +1,54 @@
+.programme-day-item-component {
+  @include inline-block;
+  width: 1000px;
+  padding-top: 13px;
+  padding-bottom: 17px;
+  border-bottom: #CCC 1px solid;
+}
+
+.programme-day-item-time {
+  top: 0;
+  width: 200px;
+  padding-right: 15px;
+  font-family: $fontmpsecond;
+  color: #666;
+  text-align: right;
+  font-size: 2rem;
+  float: left;
+  line-height: 26px;
+}
+
+.programme-day-item-image {
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+
+.programme-day-item-text {
+  position: relative;
+  padding-left: 15px;
+  width: 600px;
+  height: auto;
+  float: right;
+  text-align: left;
+  font-family: $fontmpsecond;
+  line-height: 26px;
+}
+
+.programme-day-item-title {
+  font-size: 2rem;
+  height: auto;
+
+  &.official {
+    color: $gigtypeofficialcolor;
+  }
+
+  &.concert {
+    color: $gigtypeconcertcolor;
+  }
+}
+
+.programme-day-item-description {
+  line-height: 20px;
+  padding-top: 15px;
+}

@@ -1,0 +1,72 @@
+@include border-box-sizing;
+
+$susy: (
+        column: 12,
+        container: 1000px,
+        gutters: .25,
+        gutter-position: inside,
+);
+
+//Sizes
+$narrow: 400px;
+$small: 650px;
+$medium: 960px;
+$wide: 1200px;
+
+$mobile-max-width: 600px;
+
+//Colors
+$dark: #000;
+$light: #fff;
+$red: #F00;
+$slidecontainercordercolor: #f60;
+$slidetitlecolor: #f90;
+
+$gigtypeconcertcolor: #900;
+$gigtypeofficialcolor: #FC0;
+
+$navigationhovercolor: $red;
+
+/* Coolors Exported Palette - coolors.co/540d6e-ee4266-ffd23f-3bceac-0ead69 */
+$tilecolorviolet: #540d6e; //rgba(84, 13, 110, 100)
+$tilecolorpink: #ee4266; //rgba(238, 66, 102, 100)
+$tilecoloryellow: #ffd23f; //rgba(255, 210, 63, 100)
+$tilecolorsea: #3bceac; //rgba(59, 206, 172, 100)
+$tilecolorgreen: #0ead69; //rgba(14, 173, 105, 100)
+$tilecolorblue: #006db9;
+$tilecolorgrey: #373737;
+$tilecolororange: #ee604f;
+
+$list: $tilecolorviolet, $tilecolorpink, $tilecoloryellow, $tilecolorsea, $tilecolorgreen;
+
+@function getRandomColor($index) {
+    @return nth($list, random($index));
+}
+
+//Images
+$bodybackroundimage: '../assets/images/common/tlo.jpg';
+$logoslimage: '../assets/images/common/logo_sl.jpg';
+$logowatraimage: '../assets/images/common/logo_watra.jpg';
+$logoflaglemimage: '../assets/images/common/flaga_lem.jpg';
+$logoflagplimage: '../assets/images/common/flaga_pl.jpg';
+$sponsorsimage: '../assets/images/common/sponsors.jpg';
+$newsimage: '../assets/images/common/news.jpg';
+$aboutimage: '../assets/images/common/about.jpg';
+
+//Font
+@font-face {
+  font-family: 'mp_scond';
+  src: url('../assets/fonts/mp_scond.eot');
+  src: local('☺'),
+  url('../assets/fonts/mp_scond.woff') format('woff'),
+  url('../assets/fonts/mp_scond.ttf') format('truetype'),
+  url('../assets/fonts/mp_scond.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+$fontmpsecond: 'mp_scond';
+$fontfamily: $fontmpsecond, Tahoma, Verdana, Arial, Helvetica, Sans Serif;
+
+$mainfont: 16px $fontfamily;

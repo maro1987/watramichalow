@@ -1,0 +1,62 @@
+.header-secondary-navigation-component {
+  padding: 10px 0;
+  right: 0;
+  text-align: right;
+
+  ul {
+    display: inline;
+    position: relative;
+  }
+
+  li {
+    @include inline-block;
+    font-size: 11px;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 7px;
+    cursor: pointer;
+
+    &:first-child:after {
+      color: white;
+      content: '|';
+      padding-left: 5px
+    }
+
+    &:hover {
+      color: $navigationhovercolor;
+    }
+  }
+}
+
+.header-secondary-navigation-link {
+  text-decoration: none;
+}
+
+%header-secondary-navigation-flag {
+  @include inline-block;
+  align-items: center;
+  background-repeat: no-repeat;
+  position: relative;
+  vertical-align: middle;
+  transition: opacity .25s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .6;
+  }
+}
+
+.header-secondary-navigation-flag-lem {
+  @extend %header-secondary-navigation-flag;
+  @include background-image(url($logoflaglemimage));
+  height: 18px;
+  width: 23px;
+  margin-right: 7px;
+}
+
+.header-secondary-navigation-flag-pl {
+  @extend %header-secondary-navigation-flag;
+  @include background-image(url($logoflagplimage));
+  height: 18px;
+  width: 23px;
+}

@@ -1,0 +1,31 @@
+.artist-header {
+  @extend %common-tile-header;
+  background-color: $tilecolorgreen;
+}
+
+.artist-header-title {
+  @extend %common-tile-header-title;
+}
+
+.artist-content {
+  background-color: $light;
+}
+
+.artist-content-header {
+  font-family: $fontmpsecond;
+  font-size: 1.5rem;
+  padding: 5px 25px;
+  text-transform: uppercase;
+  color: $navigationhovercolor;
+  line-height: 30px;
+}
+
+.artist-content-text {
+  display: block;
+  padding: 5px 25px 10px 25px;
+  text-align: justify;
+  font-size: 15px;
+  color: #000;
+  font-family: $fontmpsecond;
+  line-height: 18px;
+}

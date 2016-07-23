@@ -1,0 +1,29 @@
+.artist-component {
+
+}
+
+.artist-info {
+  padding: 15px 20px;
+
+}
+
+.artist-time {
+  font-size: 1.1rem;
+}
+
+.artist-name {
+  font-size: 2rem;
+  color: $red;
+  text-transform: uppercase;
+  padding-top: 5px;
+  border-bottom: #CCC 1px solid;
+}
+
+.artist-image {
+  width: 1000px;
+  height: 430px;
+}
+
+.artist-description {
+  padding: 15px 25px 30px 25px;
+}

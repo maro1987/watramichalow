@@ -1,0 +1,4 @@
+.gallery-list {
+  @include reset-list-style;
+  @include clearfix;
+}

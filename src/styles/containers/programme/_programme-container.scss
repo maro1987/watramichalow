@@ -1,0 +1,13 @@
+.programme-header {
+  @extend %common-tile-header;
+  background-color: $tilecolorsea;
+}
+
+.programme-header-title {
+  @extend %common-tile-header-title;
+}
+
+.programme-content {
+  background-color: $light;
+  padding: 15px 0 10px 0;
+}

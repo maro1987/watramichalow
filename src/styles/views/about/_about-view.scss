@@ -1,0 +1,6 @@
+.about-view {
+  @include clearfix;
+  @include container;
+  position: relative;
+  border-top: $dark 5px solid;
+}

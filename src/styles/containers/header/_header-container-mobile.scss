@@ -1,0 +1,17 @@
+@media (max-width: $mobile-max-width) {
+  .header-container-banner-logo-sl {
+    height: 80px;
+    width: 50px;
+    transform: scale(0.8, 0.8);
+  }
+
+  .header-container-banner {
+    display: inline-block;
+  }
+
+  .header-container-banner-logo-watra {
+    width: 260px;
+    height: 90px;
+    transform: scale(0.8, 0.8);
+  }
+}

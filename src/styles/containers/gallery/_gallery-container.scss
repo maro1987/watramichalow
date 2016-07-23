@@ -1,0 +1,12 @@
+.gallery-header {
+  @extend %common-tile-header;
+  background-color: $tilecolororange;
+}
+
+.gallery-header-title {
+  @extend %common-tile-header-title;
+}
+
+.gallery-content {
+  background-color: $light;
+}
