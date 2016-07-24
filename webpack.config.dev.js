@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var sassLintPlugin = require('sasslint-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devtool: 'cheap-eval-source-map',
@@ -18,6 +19,9 @@ module.exports = {
     publicPath: '/'
   },
   plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html'
+    }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('development')
     }),
