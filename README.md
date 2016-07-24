@@ -1,14 +1,3 @@
-React + Redux + Webpack Boilerplate
-=======================================
-
-Base project for setting up a frontend application using React and Redux.
-
-Requirements
-------------
-
-* node `^4.2.0`
-* npm `^3.0.0`
-
 Installation
 --------------------------------------
 * npm install
