@@ -7,6 +7,7 @@ import menu from './menu-action-reducers';
 import gallery from './gallery-reducers';
 import programme from './programme-reducers';
 import labels from './labels-reducers';
+import contact from './contact-reducers';
 
 const reducers = combineReducers({
   app,
@@ -16,6 +17,7 @@ const reducers = combineReducers({
   gallery,
   programme,
   labels,
+  contact,
   routing: routerReducer
 });
 

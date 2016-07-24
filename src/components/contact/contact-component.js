@@ -12,7 +12,9 @@ export default class ContactComponent extends Component {
     sendButtonLabel: PropTypes.string,
     messageSentLabel: PropTypes.string,
     mandatoryFieldErrorLabel: PropTypes.string,
-    incorrectEmailErrorLabel: PropTypes.string
+    incorrectEmailErrorLabel: PropTypes.string,
+    sentSuccessfully: PropTypes.any,
+    sendEmail: PropTypes.func
   };
 
   constructor(props) {
@@ -31,6 +33,7 @@ export default class ContactComponent extends Component {
 
   handleSubmit = () => {
     const email = this.refs.email_input.input.value;
+    const message = this.refs.message_input.input.value;
 
     if (email.length === 0) {
       this.setState({
@@ -41,6 +44,7 @@ export default class ContactComponent extends Component {
         emailError: this.props.incorrectEmailErrorLabel
       });
     } else {
+      this.props.sendEmail(email, message);
       this.setState({
         emailError: '',
         dialogOpened: true
@@ -74,6 +78,7 @@ export default class ContactComponent extends Component {
         <br />
         <TextField
           hintText={this.props.messageLabel}
+          ref="message_input"
           multiLine={true}
           rows={5}
           style={ { marginTop: '10', marginBottom: '10' } }

@@ -2,11 +2,13 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import ContactComponent from '../../components/contact/contact-component';
 import { getLabelsSelector } from '../../selectors/labels-selector';
-
+import { bindActionCreators } from 'redux';
+import * as ContactActionCreators from '../../actions/contact/contact-actions';
 
 export default class ContactContainer extends Component {
   static propTypes = {
-    labels: PropTypes.object
+    labels: PropTypes.object,
+    sendEmail: PropTypes.func
   };
 
   render() {
@@ -25,6 +27,8 @@ export default class ContactContainer extends Component {
             messageSentLabel={labels['contact.messageSent']}
             mandatoryFieldErrorLabel={labels['contact.error.mandatoryField']}
             incorrectEmailErrorLabel={labels['contact.error.incorrectEmail']}
+            sentSuccessfully={this.props.sentSuccessfully}
+            sendEmail={this.props.sendEmail}
           />
         </section>
       </div>
@@ -35,7 +39,8 @@ export default class ContactContainer extends Component {
 export default connect(
   (state) => Object.assign(
     {},
+    state.contact.toJS(),
     { labels: getLabelsSelector(state) }
-  )
+  ),
+  (dispatch) => bindActionCreators(ContactActionCreators, dispatch)
 )(ContactContainer);
-
