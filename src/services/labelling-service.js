@@ -47,11 +47,7 @@ export function loadLabelsData() {
         'tradycje w muzykę karpacką.',
         'artist.lemkobluegrassband.location': 'Lwów / Ukraina',
         'artist.hrdza.name': 'Hrdza',
-        'artist.hrdza.description': 'Hrdza została założona w 1999 roku z inicjatywy Sławomira Gibartiego i ' +
-        'Jarosławy Sysakowej w Priaszowie na Słowacji. Hrdza przetwarza środkowo-europejski folklor do ' +
-        'nowoczesnego stylu grania, który można sklasyfikować jak folk,  ethnic fusion, world fusion, albo – ' +
-        'bardzo ogólnikowo – world music. Ciekawe wokale i efektywne melodię, wyłołują zaciekawienie każdej publiki. ' +
-        'Zespól planuje wydać ze swoją pierwszą solistką Jarosława Sysakową album w języku rusińskim.',
+        'artist.hrdza.description': 'Hrdza została założona w 1999 roku z inicjatywy Sławomira Gibartiego i Jarosławy Sysakowej w Priaszowie na Słowacji. Hrdza przetwarza środkowo-europejski folklor do nowoczesnego stylu grania, który można sklasyfikować jak folk, ethnic fusion, world fusion, albo – bardzo ogólnikowo – world music. Ciekawe wokale i efektywne melodię, wyłołują zaciekawienie każdej publiki. Na Łemkowskiej Watrze w Michałowie grupa zaprezentuje nowy program ze znaną łemkowskiemu środowisku śpiewaczką - Susanna Jarą. Nowy projekt to ich własne aranżacje, jak też pare tradycyjnych po słowacku, rusińsku, polsku, ukraińsku czy rosyjsku. Zespół planuje wydać specjalny album tylko w rusińskim języku. Na ich tegorocznej płycie ”Hrdzava osemnástka”, znajdziecie 18 utworów, które zostały nagrane z muzykami, biorącymi gościnnie udział w projekcie. Na płycie znajduje się nawet jeden utwór po rusińsku.',
         'artist.hrdza.location': 'Hendrichovce / Słowacja',
         'artist.krambabula.name': 'Krambabula',
         'artist.krambabula.description': 'KRAMBABULA to folk-rockowy zespół z Poznania, który powstał w 2014r z inicjatywy Piotra ' +
@@ -261,11 +257,7 @@ export function loadLabelsData() {
         'пару лемківскых пісен, котры переробили во власных ориґінальных аранжациях.',
         'artist.lemkobluegrassband.location': 'Львів / Україна',
         'artist.hrdza.name': 'Hrdza',
-        'artist.hrdza.description': 'Ансамбль Грдза был оснований  в 1999 році з ініциятывы Славомира Ґібарті і ' +
-        'Ярославы Сисаковой в центрі Пряшівской Руси - Пряшові. «Грдза» перетворює середньоевропейскій фольклор ' +
-        'до модерного виду, котрий мож называти як фольк, worldbeat, ethnic fusion, world fusion, або – ' +
-        'барз загальні – world music. Файны вокалі і ефектовны мелодиі выкликуют захопліня каждой публикы. ' +
-        '«Грдза» плянує выдати русиньскій альбум з першом свойом співачком Ярославом Сисаковом.',
+        'artist.hrdza.description': 'Ансамбль Грдза был оснований в 1999 році з ініциятывы Славомира Ґібарті і Ярославы Сисаковой в центрі Пряшівской Руси - Пряшові. «Грдза» перетворює середньоевропейскій фольклор до модерного виду, котрий мож называти як фольк, worldbeat, ethnic fusion, world fusion, або – барз загальні – world music. Файны вокалі і ефектовны мелодиі выкликуют захопліня каждой публикы. На Лемківскій Ватрі в Михалові ґрупа запрезентує новий проґрам з шумном співачком Сусанном Яром, котрий находит в собі іх властны аранжациі, як тіж пару традицийных в словацкым, русиньскым, польскым, украіньскым та росийскым языках. Ансамбль рыхтує печатати специяльний альбом лем по русиньскы. На іх тогорічным кружку «Hrdzava osemnástka», найдете 18 співанок, заграных вєдно з інчыма музыками, котрий взяли участ гостинні в проєкті. На самій платни находит ся і єден твір по русиньскы.',
         'artist.hrdza.location': <p>&nbsp; </p>,
         'artist.krambabula.name': 'Крамбабула',
         'artist.krambabula.description': 'Крамбабула то фольково-роковий ансамбль з Познаня, котрий был ' +

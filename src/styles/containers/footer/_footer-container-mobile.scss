@@ -1,12 +1,13 @@
 @media (max-width: $mobile-max-width) {
-  .footer-container {
-
+  .footer-container-top {
+    height: 130px;
   }
 
   .footer-container-sponsors-banner {
-    height: 100px;
-    transform: scale(0.43, 0.43);
+    height: 170px;
+    transform: scale(.43, .43);
     margin-left: -290px;
+    margin-top: -40px
   }
 
   .footer-container-bottom {

@@ -31,7 +31,7 @@ export default class HomeArtistComponent extends Component {
     const { imgUrl, name, time, date, description, moreLabel, hourLabel } = this.props;
     return (
       <div className="home-artist-component">
-        <div className={this.getArtistInfoClassNames()}>
+        <div className={this.getArtistInfoClassNames() }>
           <p className="home-artist-info-date">{`${date} ${hourLabel} ${time}`}</p>
           <span className="home-artist-info-title">
             <a>{name}</a>
@@ -43,7 +43,7 @@ export default class HomeArtistComponent extends Component {
           <Dotdotdot clamp={4}>
             {description}
           </Dotdotdot>
-          <Link className="home-slideshow-item-slide-more-button" to={this.getLinkUrl()}>
+          <Link className="home-slideshow-item-slide-more-button" to={this.getLinkUrl() }>
             {moreLabel}
           </Link>
         </div>

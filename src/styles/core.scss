@@ -6,21 +6,16 @@
 @import 'compass/css3/filter';
 @import 'compass/css3/flexbox';
 @import 'compass/css3/transition';
-
 //External Libraries
 @import "~susy/sass/susy";
-
 @import "mixins";
 @import "variables";
 @import "base";
-
 //Common
 @import "./common/common-styles";
 @import "./common/common-mobile-styles";
-
 //Layouts
 @import "./layouts/primary/primary-layout";
-
 //Views
 @import "./views/header/header-view-common";
 @import "./views/home/home-view-common";
@@ -34,7 +29,6 @@
 @import "./views/galler-image-set/gallery-image-set-view";
 @import "./views/artist/artist-view";
 @import "./views/contact/contact-view";
-
 //Containers
 @import "./containers/header/header-container-common";
 @import "./containers/header/header-container-mobile";
@@ -56,8 +50,6 @@
 @import "./containers/galler-image-set/gallery-image-set-container";
 @import "./containers/artist/artist-container";
 @import "./containers/contact/contact-container";
-
-
 //Components
 @import "./components/header-secondary-navigation/header-secondary-navigation-component-common";
 @import "./components/header-main-navigation/header-main-navigation-component-common";
@@ -80,8 +72,11 @@
 @import "./components/info-item/info-item-component";
 @import "./components/gallery/gallery-component";
 @import "./components/gallery-list-item/gallery-list-item-component";
+@import "./components/gallery-list-item/_gallery-list-item-component-mobile.scss";
 @import "./components/gallery-image-set/gallery-image-set-component";
 @import "./components/gallery-image-set-list-item/gallery-image-set-list-item-component";
 @import "./components/gallery-image-set-list-item/gallery-image-set-list-item-component-mobile";
 @import "./components/artist/artist-component";
+@import "./components/artist/artist-component-mobile.scss";
 @import "./components/contact/contact-component";
+@import "./components/contact/contact-component-mobile";

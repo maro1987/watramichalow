@@ -1,3 +1,4 @@
 .artists-list {
   @include reset-list-style;
+  @include clearfix;
 }

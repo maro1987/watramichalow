@@ -1,14 +1,10 @@
 .artists-list-item-component {
-  @include inline-block;
-  width: 320px;
+  @include span(4 of 12);
+  width: 332px;
   height: 403px;
   padding-top: 5px;
   padding-bottom: 10px;
   border-bottom: $dark 1px solid;
-
-  &:not(:nth-child(3n)) {
-    width: 340px;
-  }
 }
 
 .artists-list-item-header {
@@ -47,6 +43,6 @@
   text-decoration: none;
 
   &:hover {
-    opacity: 0.6;
+    opacity: 6;
   }
 }

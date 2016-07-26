@@ -1,0 +1,15 @@
+@media (max-width: $mobile-max-width) {
+  .gallery-list-item-component {
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .gallery-list-item-item-image {
+    width: 100%;
+    height: auto;
+    max-height: 282px;
+    cursor: pointer;
+    transition: opacity .15s;
+  }
+}

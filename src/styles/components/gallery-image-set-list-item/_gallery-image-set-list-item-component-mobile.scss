@@ -2,7 +2,7 @@
   .gallery-image-set-list-item {
     @include span(3 of 12);
     margin-bottom: gutter(8);
-    width: 250px;
+    width: 100%;
     padding-bottom: 0;
     padding: 0;
     cursor: pointer;
@@ -14,8 +14,8 @@
   }
 
   .gallery-image-set-list-item-image {
-    width: 240px;
-    height: 150px;
+    width: 100%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto
