@@ -168,6 +168,37 @@ export function loadLabelsData() {
         'info.location.description': 'Łemkowska Watra na Obczyźnie co roku odbywa się w miejscowości Michałów – ' +
         'wieś w Polsce położona w województwie dolnośląskim, w powiecie polkowickim, w gminie Chocianów.',
         'info.terms.description': '',
+        'info.pricing.description': <p>
+          I. NORMALNE
+          <br/>
+          <br/>
+          - zakupiony w kasie w dniu Watry - 35 zł.
+          <br/>
+          - zakupiony w przedsprzedaży - 30 zł.
+          <br/>
+          <br/>
+          II. ULGOWE (młodzież szkolna powyżej 13 lat, studenci studiów dziennych)
+          <br/>
+          <br/>
+          - zakupiony w kasie w dniu Watry - 25 zł.
+          <br/>
+          - zakupiony w przedsprzedaży - 20 zł .
+          <br/>
+          <br/>
+          III. BEZPŁATNIE
+          <br/>
+          <br/>
+          - Dzieci do lat 13-tu oraz dorośli powyżej lat 70-ciu ( po okazaniu stosownego dokumentu ze zdjęciem )
+          <br/>
+          <br/>
+          IV. OPŁATA ZA NAMIOT
+          <br/>
+          <br/>
+          - w tym roku nie pobieramy opłaty za namiot - 0zł.
+          <br/>
+          <br/>
+          Bilety można zakupić w kasach przed watrowiskiem.
+        </p>,
         'info.parking.description': 'Zakup miejsca parkingowego jest możliwy tylko w kasie Watry w dniu Watry - 10 zł (za jeden samochód osobowy)',
         'info.accommodation.description': <p>
           Na chwilę obecną każdy uczestnik Watry ma możliwość do skorzystania z darmowego monitorowanego przez
@@ -386,18 +417,33 @@ export function loadLabelsData() {
         'ся в дольношлескым воєвідстві, в польковицкым повіті, в ґміні Хоцянів.',
         'info.terms.description': '',
         'info.pricing.description': <p>
-          1. НОРМАЛЬНЫ
+          I. НОРМАЛЬНЫ
+          <br/>
+          <br/>
           - куплены в касі в ден Ватры – 35 зл.
+          <br/>
           - куплены в предпродажы/скорше – 30 зл.
           <br/>
-          2. ЗНИЖКОВЫ (шкільна молодеж выже 13 років, студенты стаціонарны)
+          <br/>
+          II. ЗНИЖКОВЫ (шкільна молодеж выже 13 років, студенты стаціонарны)
+          <br/>
+          <br/>
           - куплены в касі в ден Ватры – 25 зл.
+          <br/>
           - куплены в предпродажы/скорше – 20 зл.
           <br/>
-          3. ДАРМО
+          <br/>
+          III. ДАРМО
+          <br/>
+          <br/>
           - Діти, котры не мают іщы 13 років і дорослы, котры мают веце як 70 років (по вказаню документу зо знимком).
           <br/>
-          4. ШАТРО - В тым році не берене оплаты за шатро – 0 зл.
+          <br/>
+          IV. ШАТРО 
+          <br/>
+          <br/>
+          - В тым році не берене оплаты за шатро – 0 зл.
+          <br/>
           <br/>
           Білеты вступу можна купити в касаx перед ватровиском.
         </p>,
